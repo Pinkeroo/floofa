@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brendaxiao.titlescreen" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Title"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LevelScreenActivity"
+            android:label="@string/title_activity_level_screen"
+            android:parentActivityName=".Title" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brendaxiao.titlescreen.Title" />
+        </activity>
+        <activity
+            android:name=".LevelOneActivity"
+            android:label="@string/title_activity_level_one" >
+        </activity>
+    </application>
+
+</manifest>
