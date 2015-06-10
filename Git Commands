@@ -5,3 +5,12 @@ git pull (pull changes into local/personal repos)
 ls (list of files in current directory)
 cd (change directory/changes where you are)
 cd .. (go back to previous directory)
+open -e Git\ Commands (open this thing)
+
+ALWAYS EDIT LOCALLY OR ELSE I SHALL KILL YOU!!!!!!!!! >:D
+
+Order:
+add
+commit
+pull if someone else made changes
+push
